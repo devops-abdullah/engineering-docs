@@ -14,8 +14,8 @@ nav:
 
 plugins:
   - search
-  - plantuml:
-    server: http://www.plantuml.com/plantuml
+  # - plantuml:
+  #   server: http://www.plantuml.com/plantuml
 
 # markdown_extensions:
 #   - pymdownx.superfences
