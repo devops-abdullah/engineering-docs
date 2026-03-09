@@ -1,0 +1,31 @@
+site_name: Engineering Docs
+theme:
+  name: material
+
+nav:
+  - Home: index.md
+  - MongoDB:
+      - Replication: mongodb/replication.md
+      - Backup: mongodb/backup.md
+  - Docker:
+      - Best Practices: docker/best-practices.md
+  - Networking:
+      - VLAN: networking/mikrotik-vlan.md
+
+plugins:
+  - search
+  - plantuml:
+    server: http://www.plantuml.com/plantuml
+
+markdown_extensions:
+  - pymdownx.superfences
+  - pymdownx.arithmatex
+  - pymdownx.betterem
+  - pymdownx.magiclink
+  - pymdownx.highlight
+  - pymdownx.snippets
+  - pymdownx.tabbed
+  - pymdownx.critic
+  - pymdownx.tasklist
+  - pymdownx.tilde
+  - pymdownx.mermaid2
